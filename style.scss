@@ -1,0 +1,77 @@
+@import '../SASS\ IMPORTS/setup';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body{
+  font-family: 'Open Sans';
+  background-color: #232323;
+}
+
+header{
+  background-color: steelblue;
+  height: 160px;
+  width: 100%;
+  text-align: center;
+
+  h1{
+    display: flex;
+    color:white;
+    flex-flow: column wrap;
+    justify-content: center;
+    font-size:2rem;
+
+    #colorDisplay{
+      font-size: 3rem;
+    }
+  }
+}
+
+#stripe{
+  background-color: white;
+  color: steelblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  
+  .btn{
+    background-color: inherit;
+    color: inherit;
+    padding: 5px 15px;
+    border: none;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  .selected{
+    color:white;
+    background-color: steelblue;
+  }
+
+  #reset:hover{
+    color: white;
+    background-color: steelblue;
+    transition: 400ms;
+  }
+
+  #message{
+    width: 150px;
+    margin: 0 100px;
+    padding: 5px 0;
+  }
+}
+
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  
+  .square{
+    background-color: teal;
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    margin: 10px;
+    border-radius: 15px;
+    transition: background 0.5s;
+  }  
+}

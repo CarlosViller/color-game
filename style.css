@@ -1,0 +1,99 @@
+@import url("https://kit-free.fontawesome.com/releases/latest/css/free.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans';
+  background-color: #232323;
+}
+
+header {
+  background-color: steelblue;
+  height: 160px;
+  width: 100%;
+  text-align: center;
+}
+
+header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+}
+
+header h1 #colorDisplay {
+  font-size: 3rem;
+}
+
+#stripe {
+  background-color: white;
+  color: steelblue;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+#stripe .btn {
+  background-color: inherit;
+  color: inherit;
+  padding: 5px 15px;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#stripe .selected {
+  color: white;
+  background-color: steelblue;
+}
+
+#stripe #reset:hover {
+  color: white;
+  background-color: steelblue;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+#stripe #message {
+  width: 150px;
+  margin: 0 100px;
+  padding: 5px 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container .square {
+  background-color: teal;
+  float: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  margin: 10px;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=style.css.map */
